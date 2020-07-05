@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(3, 252, 157);
+}
+
+h1 {
+  font-style: cursive;
+  color: rgb(255, 0, 195);
+  font-size: 80px;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+#image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 13px ridge red;
+  margin-bottom: 30px;
+}
+
+.details {
+  margin-left: 600px;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 50px;
+  color: rgb(255, 0, 217);
+  font-style: italic;
+}
+
+#pokemon {
+  vertical-align: middle;
+}
+
+.words{
+  font-size: 25px;
+  font-style: italic;
+}
