@@ -5,33 +5,40 @@
 <link rel="stylesheet" type="text/css" href="pokemon_go.css">
 <body>
     <h1 id="title">My pokemon</h1>
-    <p>I caught 72 pokemon in the pokedex.</p>
-    <p>I have seen 123 pokemon in the pokedex.</p>
-    <img src="bulby.jpg" alt="A bulbsaur" width="300">
-    <img src="purdy.jpg" alt="A cat pokemon" width="300">
-    <img src="snover.jpg" alt="A snover" width="300">
-    <img src="buneary.jpg" alt="A buneary" width="300">
-    <p>Here are some of them that I'm going to tell you about:</p>
-    <ul>
-      <li>Tauros</li>
-      <li>Grimmer</li>
-      <li>Minun</li>
+
+    <p class="intro">I caught 72 pokemon in the pokedex.</p>
+    <p class="intro">I have seen 123 pokemon in the pokedex.</p>
+
+    <div id="image"><a href="https://en.wikipedia.org/wiki/Bulbasaur">
+    <img src="bulby.jpg" alt="A bulbsaur" width="300" height="400"></a>
+    <img src="purdy.jpg" alt="A cat pokemon" width="300" height="400">
+    <img src="snover.jpg" alt="A snover" width="300" height="400">
+    <img src="buneary.jpg" alt="A buneary" width="300" height="400">
+    </div>
+
+    <p class="intro">Here are some of them that I'm going to tell you about:</p>
+    <ul class="details">
+      <li><a href="#tauros">Tauros</a></li>
+      <li><a href="#minun">Minun</a></li>
+      <li><a href="#grimmer">Grimmer</a></li>
     </ul>
-    <h3>Tauros</h3>
-    <p>Tauros is a rare pokemon.</p>
-    <p>It has 3 tails.</p>
-    <p>You can find taros in the U.S.A and in Canada.</p>
-    <img src="tauros.jpg" alt="A big bull with 3 tails" width="300">
-    <h3>Minun</h3>
-      <p>Minun is an electric type.</p>
-      <p>It has no evolution.</p>
-      <p>Minun is boosted by rain.</p>
-      <img src="minun.jpg" alt="A cute pokemon" width="300">
-      <h3>Grimmer</h3>
-      <p>Grimer gives you 21 grimes candies</p>
-      <p>It is boosted in cloudy weather.</p>
-      <p>Grimer evolves in to Muk.</p>
-      <img src="grimmer.jpg" alt="A big blob" width="300">
+
+    <h3 id="tauros">Tauros</h3>
+    <p class="words"><img src="tauros.jpg" id="pokemon" alt="A big bull with 3 tails" width="300" height="400">
+    Tauros is a rare pokemon.
+    It has 3 tails.
+    You can find taros in the U.S.A and in Canada.
+
+    <h3 id="minun">Minun</h3>
+    <p class="words"><img src="minun.jpg" id="pokemon" alt="A cute pokemon" width="300" height="400">
+    Minun is an electric type.
+    It has no evolution.
+    Minun is boosted by rain.</p>
+
+    <h3 id="grimmer">Grimmer</h3>
+    <p class="words"><img src="grimmer.jpg" id="pokemon" alt="A big blob" width="300" height="400">
+    Grimer gives you 21 grimes candies.
+    It is boosted in cloudy weather.
+    Grimer evolves in to Muk.</p>
 </body>
 </html>
-
